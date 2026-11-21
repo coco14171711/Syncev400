@@ -2425,31 +2425,31 @@ Note: We are not including his Family information, although we will for others. 
             ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣          
             ║[0x00 - Introduction ▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[pedro]║     
             ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣  
-			║																.-==========                                                            ║
-			║															  .-' O    =====                                                            ║
-			║															 /___       ===                                                             ║
-			║																\_      |                                                               ║
-			║									_____________________________)    (_____________________________                                    ║
-			║									\___________               .'      `,              ____________/                                    ║ 
-			║									  \__________`.     |||<   `.      .'   >|||     .'__________/                                      ║
-			║										 \_________`._  |||  <   `-..-'   >  |||  _.'_________/                                         ║ 
-			║											\_________`-..|_  _ <      > _  _|..-'_________/                                            ║ 
-			║											   \_________   |_|  //  \\  |_|   _________/                                               ║
-			║														  .-\   //    \\   /-.                                                          ║ 
-			║										  ,  .         _.'.- `._        _.' -.`._         .  ,                                          ║
-			║										<<<<>>>>     .' .'  /  '``----''`  \  `. `.     <<<<>>>>                                        ║
-			║										  '/\`         /  .' .'.'/|..|\`.`. `.  \         '/\`                                          ║
-			║										  (())        `  /  / .'| |||| |`. \  \  '        (())                                          ║
-			║										   /\          ::_.' .' /| || |\ `. `._::          /\                                           ║
-			║										  //\\           '``.' | | || | | `.''`           //\\                                          ║
-			║										  //\\             .` .` | || | '. '.             //\\                                          ║
-			║										  //\\                `  | `' |  '                //\\                                          ║
-			║										  \\//           Introduction For Target          \\//                                          ║
-			║										   \/                                              \/                                           ║
-			║							          Keeping it short, Blaise is an extortionist and animal abuser							        	║
-			║																																		║
-			║																																		║
-			║																																		║
+			      ║																.-==========                                                                                                  ║
+		      	║															  .-' O    =====                                                                                               ║
+		      	║															 /___       ===                                                             ║
+			      ║																\_      |                                                               ║
+			      ║									_____________________________)    (_____________________________                                    ║
+			      ║									\___________               .'      `,              ____________/                                    ║ 
+			      ║									  \__________`.     |||<   `.      .'   >|||     .'__________/                                      ║
+			      ║										 \_________`._  |||  <   `-..-'   >  |||  _.'_________/                                         ║ 
+			      ║											\_________`-..|_  _ <      > _  _|..-'_________/                                            ║ 
+			      ║											   \_________   |_|  //  \\  |_|   _________/                                               ║
+			      ║														  .-\   //    \\   /-.                                                          ║ 
+			      ║										  ,  .         _.'.- `._        _.' -.`._         .  ,                                          ║
+		       	║										<<<<>>>>     .' .'  /  '``----''`  \  `. `.     <<<<>>>>                                        ║
+		      	║										  '/\`         /  .' .'.'/|..|\`.`. `.  \         '/\`                                          ║
+			      ║										  (())        `  /  / .'| |||| |`. \  \  '        (())                                          ║
+			      ║										   /\          ::_.' .' /| || |\ `. `._::          /\                                           ║
+			      ║										  //\\           '``.' | | || | | `.''`           //\\                                          ║
+			      ║										  //\\             .` .` | || | '. '.             //\\                                          ║
+			      ║										  //\\                `  | `' |  '                //\\                                          ║
+		      	║										  \\//           Introduction For Target          \\//                                          ║
+			      ║										   \/                                              \/                                           ║
+			      ║							          Keeping it short, Blaise is an extortionist and animal abuser							        	║
+			      ║																																		║
+			      ║																																		║
+			      ║																																		║
             ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣   
             ║[0x00 - Evidence Locker ▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓[pedro]║     
             ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╣        
@@ -3182,8 +3182,8 @@ function show(id){
 }
 /* Replace the example links below with your own, one entry per tile name. Leave "" to dim a button. */
 var LINKS={
-  Coco:{Telegram:"https://t.me/Okaycoco",Youtube:"https://doxbin.com/user/qnd"},
-  Rockstar:{Telegram:"https://t.me/scaredycat22",Youtube:"https://doxbin.com/user/septembers"}
+  Coco:{Telegram:"https://t.me/Okaycoco",Doxbin:"https://doxbin.com/user/qnd"},
+  Rockstar:{Telegram:"https://t.me/scaredycat22",Doxbin:"https://doxbin.com/user/septembers"}
 };
 function openDetail(t){
   document.getElementById("dTitle").textContent=t.name;
@@ -3192,7 +3192,7 @@ function openDetail(t){
   d.style.backgroundSize="cover";
   var box=document.getElementById("dLinks"),L=LINKS[t.name]||{};
   box.textContent="";
-  ["Telegram","Youtube"].forEach(function(k){
+  ["Telegram","Doxbin"].forEach(function(k){
     var a=document.createElement("a");
     a.className="btn";a.textContent=k;
     if(L[k]){a.href=L[k];a.target="_blank";a.rel="noopener noreferrer"}else a.setAttribute("aria-disabled","true");
